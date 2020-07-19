@@ -386,6 +386,23 @@ a {
   height: 137px;
 }
 
+.half-block__desktop--right {
+  width: 50%;
+  text-align: right;
+}
+
+.footer-social-list {
+  margin-bottom: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.footer-social-list__item {
+  width: 2rem;
+  height: 2rem;
+  float: right;
+}
+
 @media screen and (max-width: 767px) {
   .sticky-nav {
     position: relative;
