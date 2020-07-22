@@ -436,6 +436,12 @@ a {
   float: left;
 }
 
+@media screen and (max-width: 991px) {
+  .eth-global__absolute {
+    right: 1rem;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .sticky-nav {
     position: relative;
@@ -445,6 +451,20 @@ a {
   }
   .hero-overlay {
     padding: 40px 20px;
+  }
+  .team-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .team-card {
+    width: 100%;
+  }
+  .team-card.var-m-right_medium {
+    margin-right: 0rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -469,8 +489,35 @@ a {
   .centered-container {
     text-align: left;
   }
+  .uses-list {
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .use {
+    width: 75%;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .h2 {
+    font-size: 3rem;
+  }
   .about-more-block {
-    text-align: left;
+    text-align: center;
+  }
+  .div-block {
+    text-align: center;
   }
 }
 
