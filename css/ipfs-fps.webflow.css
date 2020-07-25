@@ -32,7 +32,6 @@ a {
   bottom: auto;
   z-index: 1;
   padding: 1rem;
-  background-color: #fff;
   color: #fff;
 }
 
@@ -68,7 +67,7 @@ a {
   margin-right: 0px;
   margin-left: 0px;
   padding: 10px 0px;
-  color: #333;
+  color: hsla(0, 0%, 100%, 0.8);
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
