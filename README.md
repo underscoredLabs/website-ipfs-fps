@@ -1,1 +1,1 @@
-# https://ipfs-fps.zil.sh
+# https://ipfs-fps.com
