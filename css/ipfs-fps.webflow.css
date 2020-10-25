@@ -1,6 +1,6 @@
 body {
   background-color: #fefefe;
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #333;
   font-size: 16px;
   line-height: 1.5;
@@ -22,6 +22,17 @@ a {
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   text-decoration: underline;
+}
+
+#discordButton {
+  width: 150px;
+  border: 1px solid #7289da;
+  border-radius: 0.25rem;
+}
+
+#discordButton:hover {
+  background-color: #eef1fb;
+  transition: 300ms;
 }
 
 .sticky-nav {
@@ -324,21 +335,21 @@ a {
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .team-avatar.leon-do {
-  background-image: url('../images/leon-do.jpg');
+  background-image: url("../images/leon-do.jpg");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .team-avatar.randy-daniel {
-  background-image: url('../images/Randy.jpg');
+  background-image: url("../images/Randy.jpg");
   background-position: 50% 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -363,7 +374,7 @@ a {
   bottom: auto;
   width: 76px;
   height: 137px;
-  background-image: url('../images/ethglobal-banner.svg');
+  background-image: url("../images/ethglobal-banner.svg");
   background-position: 0px 0px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -615,4 +626,3 @@ a {
     justify-self: center;
   }
 }
-
